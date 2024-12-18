@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -Wall -ggdb listing4.c -c

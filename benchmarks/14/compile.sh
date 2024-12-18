@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -Wall -ggdb frodo_key_encode.c -c

@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -Wall -O3 -ggdb add.c -c

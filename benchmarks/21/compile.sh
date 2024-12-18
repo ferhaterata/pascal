@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -Wall -ggdb 2021-1307_4.c -c

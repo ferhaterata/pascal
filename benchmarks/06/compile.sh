@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -Wall -ggdb -O0 -mbig-endian -mcpu=cortex-m4 -march=armv7e-m arxbox.c -c

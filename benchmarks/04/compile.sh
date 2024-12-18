@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -Wall -ggdb poly_z3_to_zq.c -c

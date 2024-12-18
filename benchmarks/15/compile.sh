@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -Wall -ggdb r5_cpa_pke_decrypt.c -c
