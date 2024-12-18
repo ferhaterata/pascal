@@ -15,8 +15,6 @@ from typing import List, Set, Dict, Tuple, Optional
 from taint import is_sensitive
 import rel
 import bv
-import mc
-import opt
 import pascal
 
 import logging
