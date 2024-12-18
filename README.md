@@ -123,10 +123,10 @@ sca.goto_vulnurablities(base_addr=base_addr, folder_name=folder_name, file_name=
 
 ```
 
-Run the script:
+Run the script, first go to root directory of pascal and run the script:
 
 ```bash
-python 2021-1307_0.py
+python benchmarks/17/2021-1307_0.py
 ```
 
 ### Available Methods for Analysis
