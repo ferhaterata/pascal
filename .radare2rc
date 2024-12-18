@@ -1,0 +1,56 @@
+# Shows pseudocode in disassembly. Eg mov eax, str.ok = > eax = str.ok
+# e asm.pseudo = true
+
+# ASM directives to show more data and hints
+e asm.sub.rel = true
+
+# Disassemble in intel syntax with
+e asm.syntax=intel
+
+e asm.describe = false
+e asm.lines.bb = false 
+e asm.xrefs = true
+e asm.refptr = true
+e asm.nbytes = 4
+e asm.optype=false
+
+# Show comments at right of disassembly if they fit in screen
+e asm.cmt.col = 65
+e asm.cmt.right = true
+e asm.cmt.wrap = false
+
+# run r2 with -e bin.cache=true to fix relocations in disassembly
+e bin.cache=true
+
+# Display # for immediates in ARM
+e asm.imm.arm = true
+
+# Theme
+eco onedark
+# eco white
+
+# Use UTF-8 to show cool arrows that do not look like crap :) 
+e scr.utf8 = true
+e scr.utf8.curvy = true
+
+# Color Depth
+e scr.color=3
+
+# Display stack and register values on top of disasembly view (visual mode)
+e cmd.stack = false
+
+# To enable command autocompletion
+e cfg.newtab = 1
+
+# To use the keystone disassbler (the default r2 is better)
+# e asm.assembler = arm.ks
+
+# Disable these messages with false
+e cfg.fortunes = true
+e cfg.fortunes.type = tips, fun, nsfw, creepy
+
+# Show offsets in graphs with
+e graph.offset = true
+e graph.cmtright = true
+
+
